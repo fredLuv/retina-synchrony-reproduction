@@ -1,0 +1,33 @@
+{
+  "quantity": "Exactly 10 active cells among 40 in one 20-ms window.",
+  "published_direct_gray_value_at_10": null,
+  "did_authors_measure_10000_for_the_plotted_group": "Unknown.",
+  "interpretation": "The continuation assumes a straight connection on the log-probability axis from K=9 to K=10. It is a graphical estimate from the clipped path, not an author-reported underlying number.",
+  "panel_floor_per_1000": 0.001,
+  "author_vector": {
+    "url": "https://arxiv.org/src/1306.3061v1",
+    "member": "F5.pdf",
+    "sha256": "1864f626da3856cbd6e05686e31c4fb4a2903de4efe81822e9bcaab23d8189e8",
+    "observed_k10_per_1000": 1.2915153007555504,
+    "pairwise_k10_per_1000": 2.154500833895771,
+    "visible_gray_k9_per_1000": 0.005200745237720172,
+    "visible_gray_crosses_floor_at_k": 9.819150668977707,
+    "gray_k10_per_1000_if_segment_continues": 0.0006948794181632882,
+    "fold_if_segment_continues": 1858.6178651963758,
+    "gray_k10_per_1000_needed_for_10000": 0.00012915153007555505,
+    "crossing_k_if_10000_and_straight": 9.446156223364222
+  },
+  "journal_vector": {
+    "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1003408&type=printable",
+    "page": 7,
+    "sha256": "db87c4d2f66b74db8981ca43bb22ff8290dfb3e30c22bde2e8ea6a1259d4df86",
+    "observed_k10_per_1000": 1.2914671644247362,
+    "pairwise_k10_per_1000": 2.1543934033251864,
+    "visible_gray_k9_per_1000": 0.005201001620487123,
+    "visible_gray_crosses_floor_at_k": 9.818987387024324,
+    "gray_k10_per_1000_if_segment_continues": 0.0006945930533091793,
+    "fold_if_segment_continues": 1859.3148294126036,
+    "gray_k10_per_1000_needed_for_10000": 0.0001291467164424736,
+    "crossing_k_if_10000_and_straight": 9.446159111415325
+  }
+}

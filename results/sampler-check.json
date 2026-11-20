@@ -1,0 +1,8 @@
+{
+  "cells": 8,
+  "exact_states": 256,
+  "draws": 90000,
+  "max_abs_moment_error": 0.00350322218079234,
+  "max_abs_count_probability_error": 0.0018691356334963605,
+  "min_swap_acceptance": 0.7912666666666667
+}

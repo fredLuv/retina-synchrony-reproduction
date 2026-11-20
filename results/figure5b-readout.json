@@ -1,0 +1,13 @@
+{
+  "units": "windows per 1,000",
+  "independent_curve_floor_per_1000": 0.001,
+  "independent_floor_crossing_x": 9.819150668977702,
+  "k10_independent_upper_bound_per_1000": 0.001,
+  "k10_pairwise_per_1000": 2.154500833895771,
+  "k10_observed_per_1000": 1.2915153007555504,
+  "paper_text_observed_over_independent_approx": 10000,
+  "figure": "https://doi.org/10.1371/journal.pcbi.1003408.g005",
+  "vector_source": "https://arxiv.org/abs/1306.3061",
+  "figure_pdf_sha256": "1864f626da3856cbd6e05686e31c4fb4a2903de4efe81822e9bcaab23d8189e8",
+  "note": "Central vector curves only. The independent value at 10 is below the plot. Blank cells are unmeasured, not zero. Original error bars are not digitized."
+}

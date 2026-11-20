@@ -1,0 +1,155 @@
+{
+  "group": 3,
+  "train_windows": 188694,
+  "parameter_count": 820,
+  "initializer": {
+    "iterations": 31,
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  "regularization": "Gaussian penalties, SD 10 for h and 2 for J, scaled by training window count",
+  "initial_pair_sum_line_search": {
+    "coupling_shift": -0.0609375,
+    "pair_sum_error_before": 276.69416985887204,
+    "pair_sum_error_after_short_chain": 0.04486985887203154
+  },
+  "refinement": [
+    {
+      "single_rms": 0.008327603498114317,
+      "pair_rms": 0.001431173436772361,
+      "reweight_ess_fraction": 0.9523255012489253,
+      "histogram_patterns": 5969,
+      "pair_sum_line_search": {
+        "coupling_shift": -0.005078125000000001,
+        "pair_sum_error_before": 0.1939886088720315,
+        "pair_sum_error_after_short_chain": 0.016207358872031508
+      }
+    },
+    {
+      "single_rms": 0.001640198647338934,
+      "pair_rms": 0.0004040800866937162,
+      "reweight_ess_fraction": 0.9922814035582519,
+      "histogram_patterns": 11338,
+      "pair_sum_line_search": {
+        "coupling_shift": -0.0016601562500000002,
+        "pair_sum_error_before": 0.08214485887203149,
+        "pair_sum_error_after_short_chain": 0.015832358872031493
+      }
+    },
+    {
+      "single_rms": 0.001131065396946342,
+      "pair_rms": 0.00022199467327153202,
+      "reweight_ess_fraction": 0.9971877492296012,
+      "histogram_patterns": 14932,
+      "pair_sum_line_search": {
+        "coupling_shift": 0.0,
+        "pair_sum_error_before": -0.01535514112796843
+      }
+    },
+    {
+      "single_rms": 0.0004906047948055753,
+      "pair_rms": 0.0001687712554983238,
+      "reweight_ess_fraction": 0.9985198551212824,
+      "histogram_patterns": 18611,
+      "pair_sum_line_search": {
+        "coupling_shift": -0.0015625,
+        "pair_sum_error_before": 0.03989485887203137,
+        "pair_sum_error_after_short_chain": 0.027698891127968528
+      }
+    },
+    {
+      "single_rms": 0.0004616501010483056,
+      "pair_rms": 0.00011897933151095083,
+      "reweight_ess_fraction": 0.9990997888372617,
+      "histogram_patterns": 22810,
+      "pair_sum_line_search": {
+        "coupling_shift": 0.0,
+        "pair_sum_error_before": 0.016544858872031387
+      }
+    },
+    {
+      "single_rms": 0.00032024091282630495,
+      "pair_rms": 7.738214636987724e-05,
+      "reweight_ess_fraction": 0.9994568095079818,
+      "histogram_patterns": 27270,
+      "pair_sum_line_search": {
+        "coupling_shift": 0.0,
+        "pair_sum_error_before": 0.0090615255386981
+      }
+    },
+    {
+      "single_rms": 0.0003446765296302252,
+      "pair_rms": 7.825692270270176e-05,
+      "reweight_ess_fraction": 0.9997132972726264,
+      "histogram_patterns": 32953,
+      "pair_sum_line_search": {
+        "coupling_shift": -0.0008300781250000001,
+        "pair_sum_error_before": 0.05947819220536488,
+        "pair_sum_error_after_short_chain": 0.023071807794635246
+      }
+    }
+  ],
+  "pairwise": 0.0014919999999999998,
+  "pairwise_histogram": [
+    0.391995,
+    0.305396,
+    0.15315,
+    0.07122300000000001,
+    0.034089999999999995,
+    0.017969,
+    0.009924,
+    0.005707,
+    0.0035329999999999997,
+    0.0022530000000000002,
+    0.0014919999999999998,
+    0.0010270000000000001,
+    0.000694,
+    0.0004940000000000001,
+    0.000356,
+    0.000239,
+    0.000154,
+    0.000122,
+    8.400000000000001e-05,
+    3.6e-05,
+    3e-05,
+    1.6e-05,
+    1.3e-05,
+    0.0,
+    3e-06,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "mc_se": 4.130630769357607e-05,
+  "chain_k10": [
+    0.001488,
+    0.001464,
+    0.001516,
+    0.0015
+  ],
+  "draws_per_chain": 250000,
+  "chain_count": 4,
+  "burn_final": 3000,
+  "health": {
+    "train_single_rms": 0.0002843973499701497,
+    "train_pair_rms": 8.662523973380688e-05,
+    "max_abs_single_error": 0.0007442134566968545,
+    "max_abs_pair_error": 0.0005045394342178579,
+    "mean_sim_minus_train_k": -0.004636826862385979,
+    "min_replica_swap_acceptance": 0.155528,
+    "max_simulated_k": 24
+  }
+}

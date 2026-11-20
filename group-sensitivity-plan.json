@@ -1,0 +1,9 @@
+{
+  "purpose": "Post-hoc sensitivity analysis after inspecting the original frozen 30 groups, fixed before scoring this additional draw. Quantify variation across cell choices rather than identify or fit the published example.",
+  "seed": 1003408,
+  "n_groups": 10000,
+  "group_size": 40,
+  "sampling": "NumPy default_rng(seed), sample 40 different cells uniformly without replacement per group. Groups may overlap. Keep every group.",
+  "primary_comparison": "For exactly 10 active neurons, compute observed probability across all 297 repeats and exact stationary independence probability from the 40 individual full-recording rates. Report all-group percentiles, maximum, and number of ratios at or above the round numbers 5000 and 10000.",
+  "comparisons": "Also score the same groups using the original reanalysis split of 198 train / 99 held-out repeats. Check the full-recording fold errors at exactly 9, 11 and 12, and at least 10, to distinguish these endpoints. These are diagnostic comparisons. No claim to recover the authors' random group or to have 10,000 independent retinas."
+}

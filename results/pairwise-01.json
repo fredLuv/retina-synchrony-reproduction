@@ -1,0 +1,157 @@
+{
+  "group": 1,
+  "train_windows": 188694,
+  "parameter_count": 820,
+  "initializer": {
+    "iterations": 29,
+    "success": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  "regularization": "Gaussian penalties, SD 10 for h and 2 for J, scaled by training window count",
+  "initial_pair_sum_line_search": {
+    "coupling_shift": -0.0609375,
+    "pair_sum_error_before": 321.45135741359024,
+    "pair_sum_error_after_short_chain": 0.12790741359024427
+  },
+  "refinement": [
+    {
+      "single_rms": 0.009917823507837185,
+      "pair_rms": 0.0019096622399516218,
+      "reweight_ess_fraction": 0.9267733835928686,
+      "histogram_patterns": 7119,
+      "pair_sum_line_search": {
+        "coupling_shift": -0.00595703125,
+        "pair_sum_error_before": 0.47281366359024446,
+        "pair_sum_error_after_short_chain": 0.02881133640975575
+      }
+    },
+    {
+      "single_rms": 0.002319314759568005,
+      "pair_rms": 0.0004618314715417273,
+      "reweight_ess_fraction": 0.9885207161133257,
+      "histogram_patterns": 14292,
+      "pair_sum_line_search": {
+        "coupling_shift": -0.0009765625,
+        "pair_sum_error_before": 0.2651886635902443,
+        "pair_sum_error_after_short_chain": 0.01965508640975555
+      }
+    },
+    {
+      "single_rms": 0.000664192290138773,
+      "pair_rms": 0.00022990072832270058,
+      "reweight_ess_fraction": 0.9969341213409832,
+      "histogram_patterns": 19373,
+      "pair_sum_line_search": {
+        "coupling_shift": 4.8828125e-05,
+        "pair_sum_error_before": -0.12224883640975559,
+        "pair_sum_error_after_short_chain": 0.0351574135902446
+      }
+    },
+    {
+      "single_rms": 0.0004709693163985516,
+      "pair_rms": 0.00014458012220562125,
+      "reweight_ess_fraction": 0.9985691132652336,
+      "histogram_patterns": 23705,
+      "pair_sum_line_search": {
+        "coupling_shift": -0.0011230468750000001,
+        "pair_sum_error_before": 0.045376163590244545,
+        "pair_sum_error_after_short_chain": 0.005530086409755608
+      }
+    },
+    {
+      "single_rms": 0.00036330819877087277,
+      "pair_rms": 0.00011981065398310924,
+      "reweight_ess_fraction": 0.9990368626024526,
+      "histogram_patterns": 29943,
+      "pair_sum_line_search": {
+        "coupling_shift": 0.000390625,
+        "pair_sum_error_before": -0.06524258640975544,
+        "pair_sum_error_after_short_chain": 0.020925919743088883
+      }
+    },
+    {
+      "single_rms": 0.0003559574060532421,
+      "pair_rms": 0.00011055101275458891,
+      "reweight_ess_fraction": 0.9994451415218096,
+      "histogram_patterns": 36151,
+      "pair_sum_line_search": {
+        "coupling_shift": -0.000390625,
+        "pair_sum_error_before": 0.07142408025691127,
+        "pair_sum_error_after_short_chain": 0.006974080256910931
+      }
+    },
+    {
+      "single_rms": 0.00022524553008726141,
+      "pair_rms": 7.787182073778138e-05,
+      "reweight_ess_fraction": 0.9997263742495837,
+      "histogram_patterns": 43601,
+      "pair_sum_line_search": {
+        "coupling_shift": 0.0,
+        "pair_sum_error_before": -0.023409253076422054
+      }
+    }
+  ],
+  "pairwise": 0.002183,
+  "pairwise_histogram": [
+    0.36660699999999996,
+    0.290933,
+    0.15956599999999999,
+    0.081119,
+    0.042226,
+    0.022904,
+    0.013086,
+    0.007768,
+    0.0048920000000000005,
+    0.003229,
+    0.002183,
+    0.0016049999999999999,
+    0.001103,
+    0.000774,
+    0.000596,
+    0.00043,
+    0.00030000000000000003,
+    0.000219,
+    0.000171,
+    0.00012800000000000002,
+    8.2e-05,
+    3.7000000000000005e-05,
+    1.8999999999999998e-05,
+    1.6000000000000003e-05,
+    4.9999999999999996e-06,
+    2e-06,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "mc_se": 4.716649649867795e-05,
+  "chain_k10": [
+    0.00212,
+    0.002144,
+    0.002212,
+    0.002256
+  ],
+  "draws_per_chain": 250000,
+  "chain_count": 4,
+  "burn_final": 3000,
+  "health": {
+    "train_single_rms": 0.00022001820062606344,
+    "train_pair_rms": 7.370201851560308e-05,
+    "max_abs_single_error": 0.0004611866195973757,
+    "max_abs_pair_error": 0.00039844230341164535,
+    "mean_sim_minus_train_k": -0.002230971350200228,
+    "min_replica_swap_acceptance": 0.256424,
+    "max_simulated_k": 25
+  }
+}
