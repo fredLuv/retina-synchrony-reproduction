@@ -1,5 +1,7 @@
 # Ten of 40 neurons firing together
 
+[Read the illustrated article on GitHub Pages](https://fredluv.github.io/retina-synchrony-reproduction/).
+
 A partial reproduction of Figure 5B in Tkačik, Marre, Amodei et al. (2014). The [executed notebook](reproduction.ipynb) contains the calculations and three charts. It uses the authors’ [released recording](https://research-explorer.ista.ac.at/record/5562) of 160 salamander retinal cells and the [original paper](https://doi.org/10.1371/journal.pcbi.1003408).
 
 Across 10,000 overlapping groups of 40 cells in this retina, bursts with **exactly ten active cells** occurred a median **1,463×** as often as average-rate independence predicted. **64 groups** reached 10,000×. Whether the authors measured 10,000× for the particular 40 cells shown in their figure is unknown. [All group results](results/group-sensitivity.csv.gz) · [Held-out comparison](results/endpoint.csv)
